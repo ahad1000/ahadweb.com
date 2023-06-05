@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <style>
-span{
-font-family: Arial, sans-serif;
-font-size: 50px;
-color: white;
-}
-h2{
-    text-align: center;
-}
+        span {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            color: white;
+        }
 
-body{ background-color:grey }
-   
-h1{
-    font-size: 60px;
-    color: white;
-}
-span2{
-    font-size: 20px;
-    color: white;
-    border: 2px solid black;
-    border-radius: 10px;
+        h2 {
+            text-align: center;
+        }
 
-    
-}
+        body {
+            background-color: grey
+        }
 
-span1{
+        h1 {
+            font-size: 60px;
+            color: white;
+        }
 
-    font-size: 30px;
-    color: white;
-   
-    
+        span2 {
+            font-size: 20px;
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
 
-    
 
-}
+        }
+
+        span1 {
+
+            font-size: 30px;
+            color: white;
+
+        }
+
+        #ahad {
+            text-align: center;
+
+
+
+        }
+
+        h4 {
+            text-align: center;
+            border-radius: 12px;
+            border: 2px solid white;
+            margin-left: 560px;
+            margin-right: 560px;
+        }
+
+        .glowing-text {
+
+            font-size: 100px;
+            text-align: center;
+            position: relative;
+
+        }
+
+        .glowing-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+            opacity: 0.8;
+            z-index: -1;
+        }
     </style>
 </head>
+
 <body>
     <h1>Welcome to our website</h1>
-<span>Here is my instagram.</span><br>
-<span1>My instagram</span1><br>
-<a href="https://www.instagram.com/ahadpathan_10/" target="_blank"> <span2> Click on ahadpathan_10</span2>  <br>
-      </a>
-      
+    <span>Here is my instagram.</span><br>
+    <span1>My instagram</span1><br>
+    <a href="https://www.instagram.com/ahadpathan_10/" target="_blank">
+        <span2> Click on ahadpathan_10</span2> <br>
+    </a> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h4 id="ahad">This web site is made by AHAD</h4>
+
+    <div class="glowing-text" data text="ahad">Ahad</div>
+
 </body>
+
 </html>
